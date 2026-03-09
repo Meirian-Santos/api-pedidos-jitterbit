@@ -46,13 +46,12 @@ Exemplo de objeto de pedido:
     }
   ]
 }
-
+````
 ## Instalação
 
 Clone o repositório:
 
-git clone https://github.com/seuusuario/api-pedidos.git
-
+git clone (https://github.com/Meirian-Santos/api-pedidos-jitterbit/edit/main/README.md)
 Entre na pasta do projeto:
 
 cd api-pedidos
@@ -92,5 +91,6 @@ DELETE /orders/:numeroPedido
 ## Autor 
 
 Meirian Barbosa dos Santos
+
 
 Desenvolvedor Backend em formação

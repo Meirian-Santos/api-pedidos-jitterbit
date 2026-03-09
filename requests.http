@@ -1,0 +1,36 @@
+### Criar pedido
+POST http://localhost:3000/orders
+Content-Type: application/json
+
+{
+  "numeroPedido": "pedido-002",
+  "valorTotal": 10000,
+  "dataCriacao": "2023-07-19T12:24:11.5299601+00:00",
+  "items": [
+    {
+      "idItem": "2434",
+      "quantidadeItem": 1,
+      "valorItem": 1000
+    }
+  ]
+}
+
+### Listar todos os pedidos
+GET http://localhost:3000/orders
+
+### Buscar pedido específico
+GET http://localhost:3000/orders/pedido-001
+
+### Atualizar pedido
+PUT http://localhost:3000/orders/pedido-001
+Content-Type: application/json
+
+{
+  "valorTotal": 12000
+}
+
+### Deletar pedido
+DELETE http://localhost:3000/orders/pedido-001
+
+### Confirmar se foi deletado
+GET http://localhost:3000/orders
